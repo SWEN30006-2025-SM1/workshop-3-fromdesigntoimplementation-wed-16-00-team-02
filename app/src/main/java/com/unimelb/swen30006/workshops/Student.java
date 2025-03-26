@@ -14,10 +14,10 @@ public class Student extends Person {
     }
 
     public void sendEmailMsg(String msg) {
-        print(email);
+        System.out.println(email);
     }
 
     public float totalGrade() {
-        print(studentID);
+        System.out.println(studentID);
     }
 }
