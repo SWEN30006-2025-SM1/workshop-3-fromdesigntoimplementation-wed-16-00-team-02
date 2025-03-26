@@ -14,4 +14,12 @@ public class Assignment {
         this.maxAttempts = maxAttempts;
         this.name = name;
     }
+
+    public Submission[] invalidSubmissions() {
+        return new Submission[0];
+    }
+
+    public Submission[] validSubmissions() {
+        return new Submission[0];
+    }
 }
