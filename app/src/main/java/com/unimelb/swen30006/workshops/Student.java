@@ -19,5 +19,6 @@ public class Student extends Person {
 
     public float totalGrade() {
         System.out.println(studentID);
+        return(123);
     }
 }
